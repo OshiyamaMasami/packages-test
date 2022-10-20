@@ -1,0 +1,20 @@
+{
+  "name": "@oshiyamamasami/packages-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yosuke-kirihata/sample-npm-package.git",
+    "directory": "sample-npm-package"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OshiyamaMasami/packages-test/issues"
+  },
+  "homepage": "https://github.com/OshiyamaMasami/packages-test#readme"
+}
