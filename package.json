@@ -1,6 +1,6 @@
 {
   "name": "@oshiyamamasami/packages-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yosuke-kirihata/sample-npm-package.git",
-    "directory": "sample-npm-package"
+    "url": "https://github.com/OshiyamaMasami/packages-test.git",
+    "directory": "packages-test"
   },
   "author": "",
   "license": "ISC",
