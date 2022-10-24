@@ -9,8 +9,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yosuke-kirihata/sample-npm-package.git",
-    "directory": "sample-npm-package"
+    "url": "https://github.com/oshiyamamasami/package-test.git",
+    "directory": "package-test"
   },
   "author": "Masami Oshiyama",
   "license": "ISC",
