@@ -30,14 +30,14 @@ jobs:
           echo "::set-output name=pre_tag::$(curl -H 'Accept: application/vnd.github.v3+json' -H 'Authorization: token ${{ secrets.GITHUB_TOKEN }}' https://api.github.com/repos/${{ github.repository }}/releases/latest | jq -r .tag_name)"
 
       - name: set package version
-        id: package-version
+        id: release_tag
         # node -p 結果を出力 -e 渡した文字列をスクリプトとして実行
         # 出力パラメータの設定 '`::set-output name=version::${require("./package.json").version}`'
         run: node -p -e '`::set-output name=release_tag::${require("./package.json").version}`'
 
 #      # タグを生成する 
 #      - name: Generate release tag
-#        id: release_tag
+#        id: release_tag 
 #        run: |          
 #          echo "::set-output name=release_tag::${require("./package.json").version}"
   
